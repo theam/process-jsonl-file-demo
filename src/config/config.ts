@@ -14,8 +14,8 @@ Booster.configure('production', (config: BoosterConfig): void => {
         },
         rowEvent: {
           entityId: 'id',
-          eventTypeName: 'AddressAdded',
-          entityTypeName: 'AddressEntity',
+          eventTypeName: 'InputAddressAdded',
+          entityTypeName: 'InputAddressEntity',
         },
       },
     },
